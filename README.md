@@ -4,7 +4,7 @@ Cloud Formation | SAM Template | Lambda | AWS Code Pipeline | Python | AWS Textr
 
 Reflink: https://docs.aws.amazon.com/lambda/latest/dg/build-pipeline.html
 
-Steps:
+Steps to create a AWS code pipeline for Lambda using Cloud formation Template:
 
 1. Use existing or create a new bucket for the pipeline 
 2. Create a role that gives AWS CloudFormation permission to access AWS resources. 
