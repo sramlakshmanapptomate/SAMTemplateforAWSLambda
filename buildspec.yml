@@ -5,7 +5,7 @@ phases:
         python: 3.8
   build:
     commands:
-      - export BUCKET=ezcloud-pipeline-artifacts
+      - export BUCKET=s3-cloud-pipeline-artifacts
       - aws cloudformation package --template-file template.yml --s3-bucket $BUCKET --output-template-file outputtemplate.yml
 artifacts:
   type: zip
