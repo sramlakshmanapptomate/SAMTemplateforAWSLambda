@@ -5,7 +5,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: ./
-      FunctionName: ezcloud123-dev
+      FunctionName: myfunction-env
       Handler: dev.lambda_handler
       Runtime: python3.8
       Timeout: 300
@@ -15,4 +15,4 @@ Resources:
         - AmazonTextractFullAccess
         - CloudWatchLogsFullAccess
         - AWSLambdaBasicExecutionRole
-      Description: Invoke ezcloud123 lambda function.
+      Description: Invoke lambda function.
